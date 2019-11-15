@@ -625,6 +625,7 @@ var lg,selectedlg;
     $("#setAddress").click(function(){
       ons.notification.alert('Latitude: ' + lt + '\n'
       + 'Longitude: ' + lg+ '\n');
+      content.load('home.html')
 
     });
    
